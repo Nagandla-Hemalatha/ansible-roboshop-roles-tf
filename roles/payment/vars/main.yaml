@@ -1,0 +1,6 @@
+
+CART_HOST: cart.hemalatha.site
+USER_HOST: user.hemalatha.site
+RABBITMQ_HOST: rabbitmq.hemalatha.site
+RABBITMQ_USER: roboshop
+RABBITMQ_PASSWORD: roboshop123

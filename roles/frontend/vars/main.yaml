@@ -1,0 +1,5 @@
+CATALOGUE_HOST: catalogue.hemalatha.site
+USER_HOST: user.hemalatha.site
+CART_HOST: cart.hemalatha.site
+SHIPPING_HOST: shipping.hemalatha.site
+PAYMENT_HOST: payment.hemalatha.site

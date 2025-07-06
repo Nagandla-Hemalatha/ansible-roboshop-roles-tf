@@ -1,0 +1,26 @@
+# before running this run these commands in ansible server
+# aws configure
+# pip3.9 install boto3 botocore
+
+- name: installing server
+  ansible.builtin.dnf:
+    name: mysql-server
+    state: installed
+
+- name: start and enable server
+  ansible.builtin.service:
+    name: mysqld
+    state: started
+    enabled: yes
+
+- name: install boto3 and botocore
+  ansible.builtin.pip:
+    name: "{{ item }}"
+    executable: pip3.9
+  loop:
+  - boto3
+  - botocore
+
+- name: setting root password
+  ansible.builtin.command: mysql_secure_installation --set-root-pass RoboShop@1
+  # ansible.builtin.command: mysql_secure_installation --set-root-pass {{ MYSQL_ROOT_PASSWORD }}
