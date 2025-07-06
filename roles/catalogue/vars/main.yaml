@@ -1,1 +1,1 @@
-MONGODB_HOST: mongodb.hemalatha.site
+MONGODB_HOST: "mongodb-{{ env }}.hemalatha.site"
