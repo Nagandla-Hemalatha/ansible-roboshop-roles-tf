@@ -1,4 +1,3 @@
-
 - name: "configure {{ component }}"
   become: yes
   #hosts: "{{ component }}"
