@@ -1,5 +1,5 @@
-CATALOGUE_HOST: catalogue.hemalatha.site
-USER_HOST: user.hemalatha.site
-CART_HOST: cart.hemalatha.site
-SHIPPING_HOST: shipping.hemalatha.site
-PAYMENT_HOST: payment.hemalatha.site
+CATALOGUE_HOST: catalogue.backend-{{ env }}.hemalatha.site
+USER_HOST: user.backend-{{ env }}.hemalatha.site
+CART_HOST: cart.backend-{{ env }}.hemalatha.site
+SHIPPING_HOST: shipping.backend-{{ env }}.hemalatha.site
+PAYMENT_HOST: payment.backend-{{ env }}.hemalatha.site
