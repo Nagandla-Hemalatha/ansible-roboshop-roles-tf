@@ -1,3 +1,2 @@
-
-REDIS_HOST: redis.hemalatha.site
-MONGODB_HOST: mongodb.hemalatha.site
+REDIS_HOST: redis-{{ env }}.hemalatha.site
+MONGODB_HOST: mongodb-{{ env }}.hemalatha.site
